@@ -18,14 +18,15 @@ pip install pandas numpy matplotlib
 ```
 
 ### How to Run
-1. Place all four `.xpt` files in the same folder as the notebook:
-   - `DEMO_J.xpt`
-   - `BPX_J.xpt`
-   - `BPQ_J.xpt`
-   - `PAQ_J.xpt`
-2. Open `nhanes_bp_analysis.ipynb` in Jupyter.
-3. Run all cells top to bottom (`Kernel → Restart & Run All`).
-4. Figures will be saved to the `figures/` folder automatically.
+1. Download the following four official NHANES 2017–2018 `.xpt` files from the CDC website:
+   - [DEMO_J.xpt (Demographics Data)](https://wwwn.cdc.gov/Nchs/Nhanes/2017-2018/DEMO_J.xpt)
+   - [BPX_J.xpt (Blood Pressure Examination Data)](https://wwwn.cdc.gov/Nchs/Nhanes/2017-2018/BPX_J.xpt)
+   - [BPQ_J.xpt (Blood Pressure Questionnaire Data)](https://wwwn.cdc.gov/Nchs/Nhanes/2017-2018/BPQ_J.xpt)
+   - [PAQ_J.xpt (Physical Activity Questionnaire Data)](https://wwwn.cdc.gov/Nchs/Nhanes/2017-2018/PAQ_J.xpt)
+2. Place all four downloaded `.xpt` files in the exact same folder as your Jupyter notebook.
+3. Open `nhanes_bp_analysis.ipynb` in Jupyter.
+4. Run all cells from top to bottom (`Kernel → Restart & Run All`).
+5. Figures will be automatically saved to the `figures/` folder.
 
 
 ### Three Key Findings
